@@ -29,6 +29,8 @@ import {
     threejs,
     sppu,
     purdue,
+    promptopia,
+    gamechanger,
   } from "../assets";
   
   export const navLinks = [
@@ -264,12 +266,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Promptopia",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Explore a dynamic platform where minds converge to share, discover, and collaborate on AI prompts.",
       tags: [
         {
-          name: "react",
+          name: "next",
           color: "blue-text-gradient",
         },
         {
@@ -281,41 +283,20 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: promptopia,
+      source_code_link: "https://github.com/fagun98/Promptopia",
     },
     {
-      name: "Job IT",
+      name: "Game Changer",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "mysqlite",
           color: "green-text-gradient",
         },
         {
@@ -323,9 +304,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: gamechanger,
       source_code_link: "https://github.com/",
-    },
+    }
   ];
   
   export { services, frontend_technologies, backend_technologies, devops_tecnhnologies, database_technologies, experiences, educations, testimonials, projects };
