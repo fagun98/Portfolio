@@ -41,6 +41,9 @@ import promptopia from "./promptopia.png";
 import purdue from "./education/Purdue.svg"
 import sppu from "./education/SPPU.svg";
 
+import blockchain from "./certifications/blockchainBasics.png"
+import javaException from "./certifications/JavaExceptionHandling.png"
+
 export {
   logo,
   backend,
@@ -80,4 +83,6 @@ export {
   gamechanger,
   purdue,
   sppu,
+  blockchain,
+  javaException,
 };

@@ -8,6 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Education from './Education';
+import Certifications from './Certifications';
 
 export {
   Hero,
@@ -19,6 +20,7 @@ export {
   Works,
   Feedbacks,
   Contact,
+  Certifications,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 

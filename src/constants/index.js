@@ -19,18 +19,13 @@ import {
     python,
     mysql,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     sppu,
     purdue,
     promptopia,
     gamechanger,
+    blockchain,
+    javaException,
   } from "../assets";
   
   export const navLinks = [
@@ -62,7 +57,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Python Developer",
+      title: "Data Analyst",
       icon: backend,
     },
     {
@@ -305,8 +300,39 @@ import {
         },
       ],
       image: gamechanger,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/fagun98/Gamechanger",
+    },
+    {
+      name: "Ticket Cafe",
+      description:
+        "Ticket Cafe: Where tickets meet excitement! Dive into a world of movies, concerts, and sports with our Django-powered platform. Buy, sell, and chat for prices, your ticket journey starts here!",
+      tags: [
+        {
+          name: "django",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysqlite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/564x/07/45/44/07454428c77d84209e6eb6fe0f4d9396.jpg",
+      source_code_link: "https://github.com/fagun98/Ticket_cafe",
     }
   ];
+
+  const certifications = [{
+      name: "Blockchain Basics",
+      image: blockchain, 
+    },
+    {
+      name: "Java Excpetion",
+      image: javaException, 
+    },
+  ]
   
-  export { services, frontend_technologies, backend_technologies, devops_tecnhnologies, database_technologies, experiences, educations, testimonials, projects };
+  export { services, frontend_technologies, backend_technologies, devops_tecnhnologies, database_technologies, experiences, educations, testimonials, projects, certifications };
