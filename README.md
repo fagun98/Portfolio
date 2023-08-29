@@ -18,6 +18,6 @@ My journey in software development isn't just about writing lines of code; it's 
 
 ## Let's Connect
 
-I'm always excited to connect, collaborate, and learn from fellow developers and enthusiasts. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/fagun-raithatha-4365a2178/). You can also explore more about me on [My Portfolio]([https://www.yourportfolio.com](https://portfolio-tau-swart-70.vercel.app/)). Let's embark on a journey of innovation together!
+I'm always excited to connect, collaborate, and learn from fellow developers and enthusiasts. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/fagun-raithatha-4365a2178/). You can also explore more about me on [My Portfolio](https://portfolio-tau-swart-70.vercel.app/). Let's embark on a journey of innovation together!
 
 Thank you for stopping by and exploring my portfolio. Your interest means a lot to me, and I can't wait to see where my coding adventures take me next. Stay curious, keep coding, and let's make an impact! 👨‍💻🌟
