@@ -54,7 +54,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]' 
+        className='mt-4 text-secondary xs:text=[12px] text-[17px] max-w-3xl leading-[30px]' 
       >
       
       I'm <span className='font-semibold text-white'> Fagun Raithatha</span>, a tech-driven individual with a solid foundation in Computer Engineering and an inquisitive mind shaped by a Master's degree in Computer Science from Purdue University.
