@@ -26,6 +26,7 @@ import {
     gamechanger,
     blockchain,
     javaException,
+    aisumz,
   } from "../assets";
   
   export const navLinks = [
@@ -280,6 +281,27 @@ import {
       ],
       image: promptopia,
       source_code_link: "https://github.com/fagun98/Promptopia",
+    },
+    {
+      name: "AI Summerizer",
+      description:
+        "Your go-to tool for summarizing web articles and pages with lightning speed! ",
+      tags: [
+        {
+          name: "vite + react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aisumz,
+      source_code_link: "https://github.com/fagun98/AI-Summarizer-",
     },
     {
       name: "Game Changer",

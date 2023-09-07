@@ -37,6 +37,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gamechanger from "./gamechanger.jpg";
 import promptopia from "./promptopia.png";
+import aisumz from "./aisumz.png";
 
 import purdue from "./education/Purdue.svg"
 import sppu from "./education/SPPU.svg";
@@ -81,6 +82,7 @@ export {
   tripguide,
   promptopia,
   gamechanger,
+  aisumz,
   purdue,
   sppu,
   blockchain,
