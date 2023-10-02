@@ -27,6 +27,7 @@ import {
     blockchain,
     javaException,
     aisumz,
+    carrent,
   } from "../assets";
   
   export const navLinks = [
@@ -195,6 +196,17 @@ import {
 
   const experiences = [
     {
+      title: "Associate Software Developer",
+      company_name: "IUPUI",
+      icon: iupui,
+      iconBg: "#383E56",
+      date: "July 2023 - Present",
+      points: [
+        "Actively involved in GUI development using the Holoviews library in Python, crafting intuitive and visually appealing user interfaces that facilitate seamless data exploration and interaction.",
+        "Proficiently engaged in the design and implementation of diverse data structures, tailoring them to specific project requirements.",
+      ],
+    },
+    {
       title: "Data Analyst",
       company_name: "IUPUI",
       icon: iupui,
@@ -218,17 +230,6 @@ import {
         "Developed a pattern analysing program to extract desired patient details.",
         "Engaged in extensive research, actively exploring a variety of machine learning algorithms to uncover essential patterns within the data.",
         "Collaborated with diverse BERT and NLP models during the research endeavor, delving into various techniques to extract meaning and context from text data.",
-      ],
-    },
-    {
-      title: "Associate Software Developer",
-      company_name: "IUPUI",
-      icon: iupui,
-      iconBg: "#383E56",
-      date: "July 2023 - Present",
-      points: [
-        "Actively involved in GUI development using the Holoviews library in Python, crafting intuitive and visually appealing user interfaces that facilitate seamless data exploration and interaction.",
-        "Proficiently engaged in the design and implementation of diverse data structures, tailoring them to specific project requirements.",
       ],
     },
   ];
@@ -261,6 +262,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Car Showcase",
+      description:
+        "Car Rental Showcase, your go-to platform for discovering and renting the perfect car for your next adventure.",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/fagun98/CarShowcase",
+    },
     {
       name: "Promptopia",
       description:
