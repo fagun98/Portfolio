@@ -85,6 +85,8 @@ const About = () => {
         Thank you for visiting my portfolio. Feel free to reach out if you're interested in exploring potential collaborations, discussing exciting tech trends, or simply exchanging insights. Together, we can shape the future of tech and make a lasting impact.
         <br /><br />
       </span>
+      <span className='font-semibold text-white'>Email me at: fagun.raithatha28@gmail.com </span>
+      <br/>
       #Portfolio #TechInnovation #SoftwareSolutions #Collaboration
 
 
