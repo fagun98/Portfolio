@@ -84,6 +84,13 @@ const Navbar = () => {
                         <a href={`#${link.id}`}>{link.title}</a>
                       </li>               
                     ))}
+                    <li
+                      className={`${
+                        active === "LinkedIn"
+                        ? "text-white"
+                        : "text-secondary"
+                      } font-poppins font-medium curson-pointer text-[16px]` }
+                    ><a href='https://www.linkedin.com/in/fagun-raithatha-4365a2178/'>LinkedIn</a></li>
                 </ul>
               </div>
         </div>
