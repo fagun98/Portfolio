@@ -196,7 +196,7 @@ import {
 
   const experiences = [
     {
-      title: "Associate Software Developer",
+      title: "Reseach Software Engineer",
       company_name: "IUPUI",
       icon: iupui,
       iconBg: "#383E56",
