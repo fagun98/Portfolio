@@ -31,6 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import iupui from "./company/iupui.png";
+import numInformatics from "./numinformatics.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -73,6 +74,7 @@ export {
   django,
   python,
   iupui,
+  numInformatics,
   meta,
   shopify,
   starbucks,

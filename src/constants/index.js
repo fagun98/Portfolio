@@ -6,6 +6,7 @@ import {
     javascript,
     html,
     css,
+    numInformatics,
     iupui,
     reactjs,
     github,
@@ -51,20 +52,20 @@ import {
   
   const services = [
     {
-      title: "React Developer",
+      title: "AI / ML Engineer",
+      icon: creator,
+    },
+    {
+      title: "Python Developer",
+      icon: backend,
+    },
+    {
+      title: "Data Analyst",
       icon: web,
     },
     {
       title: "Java Developer",
       icon: mobile,
-    },
-    {
-      title: "Data Analyst",
-      icon: backend,
-    },
-    {
-      title: "ML Engineer",
-      icon: creator,
     },
   ];
   
@@ -196,11 +197,22 @@ import {
 
   const experiences = [
     {
+      title: "AI / ML Developer",
+      company_name: "NumInformatics",
+      icon: numInformatics,
+      iconBg: "#383E56",
+      date: "February 2024 - Present",
+      points: [
+        "Utilizing financial data, leveraging Holoviews to craft an intuitive interface for in-depth analysis, visualization, and maximizing its utility.",
+        "Developed and implemented a dynamic RAG system to streamline Health Insurance Policy searches, enhancing efficiency and accuracy.",
+      ],
+    },
+    {
       title: "Reseach Software Engineer",
       company_name: "IUPUI",
       icon: iupui,
-      iconBg: "#383E56",
-      date: "July 2023 - Present",
+      iconBg: "#E6DEDD",
+      date: "July 2023 - February 2024",
       points: [
         "Actively involved in GUI development using the Holoviews library in Python, crafting intuitive and visually appealing user interfaces that facilitate seamless data exploration and interaction.",
         "Proficiently engaged in the design and implementation of diverse data structures, tailoring them to specific project requirements.",
