@@ -31,6 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import iupui from "./company/iupui.png";
+import university_mn from "./company/university_mn.png"
 import numInformatics from "./numinformatics.png"
 
 import carrent from "./carrent.png";
@@ -89,4 +90,5 @@ export {
   sppu,
   blockchain,
   javaException,
+  university_mn,
 };

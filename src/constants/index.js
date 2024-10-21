@@ -3,9 +3,6 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    html,
-    css,
     numInformatics,
     iupui,
     reactjs,
@@ -29,6 +26,7 @@ import {
     javaException,
     aisumz,
     carrent,
+    university_mn,
   } from "../assets";
   
   export const navLinks = [
@@ -56,15 +54,15 @@ import {
       icon: creator,
     },
     {
-      title: "Python Developer",
+      title: "Data Scientist",
       icon: backend,
     },
     {
-      title: "Data Analyst",
+      title: "Machine Learning Consultant",
       icon: web,
     },
     {
-      title: "Java Developer",
+      title: "Data Analyst",
       icon: mobile,
     },
   ];
@@ -197,14 +195,32 @@ import {
 
   const experiences = [
     {
+      title: "Machine Learning Consultant",
+      company_name: "University of Minnesota",
+      icon: university_mn,
+      iconBg: "#E6DEDD",
+      date: "July 2024 - Present",
+      points: [
+        "Improved chatbot architecture by integrating a Pinecone vector database, boosting accuracy and reliability.",
+        "Developed and deployed Streamlit UI platforms for testing, enabling precise validation of chatbot interactions with evidence-based responses.",
+        "Configured, set up, and deployed a testing server using AWS Fargate, accelerating feature testing before production deployment.",
+        "Enhanced and tested multiple serverless APIs on AWS, optimizing performance and scalability.",
+        "Integrated project with Langfuse to track API and LLM calls, prompt management, providing detailed analysis of latency and costs."
+      ],
+    },
+    {
       title: "AI / ML Developer",
       company_name: "NumInformatics",
       icon: numInformatics,
       iconBg: "#383E56",
       date: "February 2024 - Present",
       points: [
-        "Utilizing financial data, leveraging Holoviews to craft an intuitive interface for in-depth analysis, visualization, and maximizing its utility.",
-        "Developed and implemented a dynamic RAG system to streamline Health Insurance Policy searches, enhancing efficiency and accuracy.",
+        "Enhanced the graph RAG system with Neo4J, adding real-time chat features for better user interaction on the Streamlit platform.",
+        "Improved the chatbot by introducing a semantic classifier that sorts queries and directs them appropriately, providing tailored solutions with relevant information.",
+        "Built a custom Vector database using PostgreSQL and pgvector, ensuring data privacy by avoiding shared cloud storage.",
+        "Constructed a multi-model architecture that uses various machine learning models (like Neural Networks, Decision Trees, and Random Forests) to predict flags.",
+        "Designed a waterfall architecture that predicts one flag using initial features, then uses that flag along with initial features to predict subsequent flags.",
+        "Developed a dynamic RAG (Retrieval Augmented Generation) system that efficiently answers specific health insurance policy inquiries from a vast database, providing evidence and support for each response."
       ],
     },
     {
@@ -275,6 +291,150 @@ import {
   
   const projects = [
     {
+      name: "AuditInsight-Bot",
+      description:
+        "AuditInsight Bot is a NumInformatics 10-K Analyzer Chatbot designed to assist users in generating accurate and relevant answers based on audit reports of companies. By leveraging similarity search through documents, the chatbot aims to provide reliable information and insights, ensuring users have access to the data they need.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GraphRAG",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Neo4J",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/564x/b0/a7/47/b0a74785c0d674cee29b491f520643f5.jpg",
+      source_code_link: "/",
+    },
+    {
+      name: "DocSearch-Chat",
+      description:
+        "DocSearch-Chat is a Retrieval Augmented Generation (RAG) model designed to search and analyze official documents. It provides pinpoint accuracy in locating user queries within the documents and offers a chat facility for answering specific queries based on the content of those documents.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "RAG",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Chatbot",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/564x/ce/a5/e4/cea5e48c88cba27483e015b3740f188c.jpg",
+      source_code_link: "/",
+    },
+    {
+      name: "Mental-Health-Classification",
+      description:
+        "Developed a cutting-edge Mental Health Classification Model. Leveraging Python and BERT models (DistillBERT & SentimentBERT)",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BERT",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Neural-Network",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/564x/14/d3/62/14d36228173aa8c32c8f9c35db5f3128.jpg",
+      source_code_link: "https://github.com/fagun98/Mental-Health-Classification",
+    },
+    {
+      name: "Document Aggregator",
+      description:
+        "This repository contains a Python project for aggregating data on official website and combining them into a unified dataset.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "DataAnalysis",
+          color: "green-text-gradient",
+        },
+        {
+          name: "WebScrape",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/564x/71/80/07/718007c834e22e0696d76ed624e050a3.jpg",
+      source_code_link: "https://github.com/fagun98/Registered-Investment-Advisers-Aggregator",
+    },
+    {
+      name: "Job Application Tracker",
+      description:
+        "A Streamlit application to track job applications, including job details, statuses, and visualization of application trends.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: "https://i.pinimg.com/564x/48/f6/69/48f6695588d1785b1d46ca815318b0f3.jpg",
+      source_code_link: "https://github.com/fagun98/Job-Application-Tracker",
+    },
+    {
+      name: "SnapQuest",
+      description:
+        "SnapQuest is a daily photography challenge app built with Streamlit. Capture a new object every day, upload your photos, and explore the community gallery!",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MatPlotLib",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/control/564x/c6/0f/d9/c60fd9aff016d5dacc5e707ffbb29dc6.jpg",
+      source_code_link: "https://github.com/fagun98/SnapQuest-Daily-Photography-Challenge",
+    },
+    {
+      name: "Fake-Review-Bouncer",
+      description:
+        "Identifying Real or Fake reviews on various marketplaces. Using various machine learning algorithms combined with unsupervised and supervised models we were able to distinguish the reviews.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Machine-Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Data-Visualization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/564x/14/d3/62/14d36228173aa8c32c8f9c35db5f3128.jpg",
+      source_code_link: "https://i.pinimg.com/736x/9a/23/34/9a2334ca2602968bf7f1f6e73f050591.jpg",
+    },
+    {
       name: "Car Showcase",
       description:
         "Car Rental Showcase, your go-to platform for discovering and renting the perfect car for your next adventure.",
@@ -336,6 +496,23 @@ import {
       ],
       image: aisumz,
       source_code_link: "https://github.com/fagun98/AI-Summarizer-",
+    },
+    {
+      name: "Library Management",
+      description:
+        "The primary objective of this particular project is to develop a library management system that utilizes the principles of inheritance and object-oriented programming, while adhering to the SOLID design principles. By leveraging these fundamental concepts, we can ensure that our code is modular, extensible, and maintainable.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OOP",
+          color: "green-text-gradient",
+        },
+      ],
+      image: "https://i.pinimg.com/736x/3c/42/01/3c4201415657c8af56fcaeb812661383.jpg",
+      source_code_link: "https://github.com/fagun98/Library-Management",
     },
     {
       name: "Game Changer",
